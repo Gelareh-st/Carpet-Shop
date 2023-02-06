@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap");
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  background-color: #cc3333;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover{
+  color: #000;
+  font-weight: bolder;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+header {
+  height: 100vh;
+  background-image: url("../assets/images/Arch2O-the-beautiful-wonders-of-persian-architecture-from-5-cities-in-iran-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.main-label {
+  margin: 0.5rem 1rem;
+  color: #cc3333;
+}
+nav {
+  height:4rem;
+  width: 90%;
+  background-color: rgba(238, 221, 204, 0.8);
+  position: fixed;
+  margin: 2rem 5% 0 5%;
+  border-radius: 4rem;
+  z-index: 2;
+}
+.nav-bar {
+  list-style: none;
+  padding: 1rem 0;
+}
+.nav-bar > li {
+  width: 25%;
+  text-align: center;
+  transform: scale(1.2);
+}
+
+.nav-menu{
+  background-color: rgba(238, 221, 204, 0.9);
+  box-shadow: 0 1rem 1rem 1rem rgba(0,0,0,0.5);
+  width: fit-content;
+  padding: 1.5rem;
+  display: none;
+  list-style: none;
+  border-radius: 0 0 7rem 7rem;
+  margin: auto;
+}
+.nav-menu>li{
+  padding: 0.5rem 1rem;
+  border-top: #cc3333 groove 0.5px;
+}
+.nav-icons>img , #buy-icon{
+  height: 2rem;
+}
+#products-num{
+  margin-right: -2.7rem;
+  background-color: #cc3333;
+  border-radius: 2rem 2rem 0 0;
+  text-align: center;
+  width: 1.2rem;
+  height: 1.6rem;
+  color: white;
+}
+#mobile-nav{
+  background-color: rgba(238, 221, 204, 1);
+  height: 100%;
+  width: fit-content;
+  padding: 2rem;
+  top: 0;
+  right: 0;
+  position: fixed;
+  z-index: 2;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  transition: 1s ease;
+  display: none;
+}
+#mobile-nav>ul>li{
+  padding: 1rem;
+  border-bottom: #cc3333 groove 0.5px;
+  list-style: none;
+
+}
+.mobile-nav-menu{
+  display: none;
+}
+.mobile-nav-menu>li{
+  padding: 1rem;
+  border-top: #cc3333 groove 0.5px;
+  list-style: none;
+}
+main {
+  margin-top: 3rem;
+  padding: 2rem;
+}
+.cart-sec {
+  padding: 2rem;
+  display: flex;
+  margin: 4rem 0;
+  flex-direction: row;
+  overflow-x: scroll;
+  border: 0.3rem solid rgba(238, 221, 204, 1);
+  border-radius: 10rem 10rem 0 0;
+}
+.cart-k {
+  height: 23rem;
+  width: 15rem;
+  margin: 1rem 2rem;
+  line-height: normal;
+  border-radius: 10rem 10rem 0 0;
+  background-color: rgba(238, 221, 204, 1);
+}
+.cart-image {
+  width: 100%;
+  height: 20rem;
+  border: 0.5rem solid rgba(238, 221, 204, 1);
+  border-radius: 10rem 10rem 0 0;
+  transition: all 0.5s ease;
+}
+.cart-title {
+  height: 3rem;
+  padding: 1rem;
+}
+.cart-title>h3{
+  font-size:1.3rem;
+  text-align: center;
+}
+.carpet-info-div {
+  height: 3rem;
+  padding: 0 1rem;
+  margin-top: -4rem;
+}
+.carpet-info{
+  font-weight:bolder;
+  font-size: 1.2rem;
+  display: none;
+}
+.buy{
+  height: 2.3rem;
+  border-radius: 3rem;
+  margin-right: 1rem;
+  padding: 0.2rem;
+  background-color: #cc3333;
+  z-index: 1;
+
+}
+label {
+  margin-top: 5rem;
+  margin-left: 5rem;
+  color: rgba(238, 221, 204, 1);
+}
+.collection-sec {
+  margin: 3rem 0;
+  padding: 4rem 1rem;
+}
+.collection-sec > h2 {
+  color: rgba(238, 221, 204, 1);
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}
+.collection-cart {
+  height: 25rem;
+  width: 16.5rem;
+  background-color: rgba(238, 221, 204, 1);
+  padding: 0.5rem;
+  margin: 3rem 1.5rem 1rem 1.5rem;
+  border-radius: 10rem 10rem 0 0;
+  transform: scale(1);
+  transition: all 0.6s ease;
+}
+.collection-cart:hover{
+  transform: scale(1.06);
+}
+.col-cart-im {
+  width: 100%;
+  height: 90%;
+  border-radius: 10rem 10rem 0 0;
+}
+.col-title {
+  text-align: center;
+}
+.ad-sec {
+  height: fit-content;
+  padding: 3rem 1rem;
+  background-color: rgba(238, 221, 204, 0.8);
+  border-radius: 5rem;
+  align-self: center;
+}
+.carpet-img {
+  height: auto;
+  width: 100%;
+}
+.info-sec {
+  padding: 1rem;
+  color: rgba(238, 221, 204, 1);
+}
+footer{
+    height: 5rem;
+    margin: 1rem 5%;
+    background-color: rgba(238, 221, 204, 0.8) ;
+    border-radius: 10rem;
+}
+.sos-media>a>img{
+  height: 2rem;
+}
+@media screen and (max-width: 500px) {
+  header {
+    background-image: url("../assets/images/121664.jpg");
+  }
+  .main-label {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 990px) {
+  #products-num{
+    margin-right: -1.8rem;
+    margin-top: -1rem;
+  }
+  .main-label {
+    font-size:1.5rem;
+  } 
+}
