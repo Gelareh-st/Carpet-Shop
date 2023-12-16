@@ -1,0 +1,27 @@
+main{
+    padding: 8rem 4rem;
+}
+.text-side{
+    border: solid 1px rgba(238, 221, 204, 0.8);
+    background-color: rgba(238, 221, 204, 0.8);
+    padding: 2rem;
+    height:35rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.map-side{
+    border: solid 1px rgba(238, 221, 204, 0.8);
+    padding: 1rem;
+}
+.map-side * {
+    color: rgb(238, 221, 204);;
+}
+
+
+@media screen and (max-width: 990px) {
+    main{
+        padding: 10rem 1rem;
+    }
+     
+  
+  }
