@@ -1,0 +1,25 @@
+main{
+    padding: 10rem 0 4rem;
+}
+.form-div{
+    height: auto;
+    width: fit-content;
+    margin:auto;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    background-color: rgba(238, 221, 204, 0.8);
+}
+.form-div input{
+    display: block;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    width:20rem;
+    height: 3rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 1rem;
+    border: 2px solid #cc3333;
+}
+.form-div #submit-btn{
+    background-color: #cc3333;
+    margin-bottom: 0;
+}
