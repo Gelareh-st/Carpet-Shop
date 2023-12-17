@@ -11,6 +11,9 @@ for (let i = 0; i < cart.length; i++) {
         cartInfo[i].style.display = "block";
         cartImage[i].style.filter = "opacity(40%)";
     }
+    cart[i].onclick = function() {
+        window.open("product.html","_self");
+    }
 }
 ////////////////////////////////////////////////////////////////////////////////////navbar menu display
 var navItem = document.getElementsByClassName("nav-item");
