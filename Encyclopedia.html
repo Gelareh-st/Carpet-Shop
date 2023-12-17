@@ -8,19 +8,19 @@
     <link rel="stylesheet" href="css/Encyclopedia.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="./assets/images/carpet.png">
-    <title>Persian Carpet | Login</title>
+    <title>Persian Carpet | Encyclopedia</title>
 </head>
 
 <body>
     <div class="container-fluid"></div>
     <header>
         <nav class="d-flex">
-            <div class="col-6 col-lg-4">
+            <div class="col-6 col-lg-3">
                 <h1 class="main-label">Persian carpet</h1>
             </div>
-            <ul class="col-6 d-none d-lg-flex justify-content-evenly nav-bar">
+            <ul class="col-7 d-none d-lg-flex justify-content-evenly nav-bar">
                 <li><a href="index.html">home</a></li>
-                <li class="nav-item"><a href="index.html #collection">Collections</a>
+                <li class="nav-item"><a href="#collection">Collections</a>
                     <ul class="nav-menu">
                         <li><a href="#">Qashqai</a></>
                         <li><a href="#">Kerman</a></li>
@@ -39,18 +39,23 @@
                     <ul class="nav-menu">
                         <li><a href="login.html">Sign in</a></li>
                         <li><a href="sign_up.html">Sign up</a></li>
-                        <li><a href="#">Support</a></li>
+                        <li><a href="comments.html">Comments</a></li>
                     </ul>
                 </li>
                 <li><a href="Encyclopedia.html">Encyclopedia</a></li>
             </ul>
             <div
                 class="nav-icons col-6 col-lg-2 d-flex align-items-center justify-content-evenly justify-content-lg-end">
-                <div class="d-flex">
-                    <p id="products-num"> 0 </p>
-                    <img src="./assets/images/icons8-shopping-cart-90.png" alt="" class=" m-lg-3 m-1 " id="buy-icon">
-                </div>
-                <img src="./assets/images/icons8-person-90.png" alt="" class=" m-lg-3 ">
+
+                <a href="cart.html">
+                    <div class="d-flex">
+                        <p id="products-num"> 0 </p>
+                        <img src="./assets/images/icons8-shopping-cart-90.png" alt="" class=" m-lg-3 m-1 "
+                            id="buy-icon">
+                    </div>
+                </a>
+                <a href="login.html"><img src="./assets/images/icons8-person-90.png" alt="" class=" m-lg-3 "
+                        id="login-icon"></a>
                 <img src="./assets/images/icons8-menu-rounded-90.png" alt="" class="d-block d-lg-none" id="menu-icon">
             </div>
         </nav>
@@ -78,7 +83,7 @@
                     <ul class="mobile-nav-menu">
                         <li><a href="login.html">Sign in</a></li>
                         <li><a href="sign_up.html">Sign up</a></li>
-                        <li><a href="#">Support</a></li>
+                        <li><a href="comments.html">Comments</a></li>
                     </ul>
                 </li>
                 <li><a href="Encyclopedia.html">Encyclopedia</a></li>
@@ -87,87 +92,264 @@
     </header>
     <main>
 
-        <div class="d-flex flex-row-reverse flex-wrap" >
+        <div class="d-flex flex-row-reverse flex-wrap" id="main-div">
             <div class="map-side col-12 col-sm-3">
                 <h5>Persian Carpet</h5>
                 <ul>
                     <li><a href="#about-us">About us</a></li>
-                    <li><a href="#about-persian-carpet">About Perisan Carpet</a></li>
-                    <li><a href=""></a></li>
+                    <li><a href="#about-persian-carpet">Perisan Carpet</a></li>
+                    <li><a href="#qashqai">Qashqai Carpet</a></li>
+                    <li><a href="#kerman">Kerman Carpet</a></li>
+                    <li><a href="#tabriz">Tabriz Carpet</a></li>
+                    <li><a href="#sarouk">Sarouk Carpet</a></li>
+                    <li><a href="#gabbeh">Gabbeh</a></li>
+                    <li><a href="#moud">Moud Carpet</a></li>
+                    <li><a href="#nahavand">Nahavand Carpet</a></li>
                 </ul>
             </div>
             <div class="text-side col-12 col-sm-9">
-                <label for="#about-us">
+                <section id="about-us">
                     <h3>About us</h3>
-                </label>
-                <p id="about-us">thin the group of Oriental rugs produced by the countries of the "rug belt", the
-                    Persian carpet
-                    stands out by the variety and elaborateness of its manifold designs. Persian rugs and carpets of
-                    various types were woven in parallel by nomadic tribes in village and town workshops, and by royal
-                    court manufactories alike. As such, they represent miscellaneous, simultaneous lines of tradition,
-                    and reflect the history of Iran, Persian culture, and its various peoples. The carpets woven in the
-                    Safavid court manufactories of Isfahan during the sixteenth century are famous for their elaborate
-                    colors and artistical design, and are treasured in museums and private collections all over the
-                    world today. Their patterns and designs have set an artistic tradition for court manufactories which
-                    was kept alive during the entire duration of the Persian Empire up to the last royal dynasty of
-                    Iran. Carpets woven in towns and regional centers like Tabriz, Kerman, Ravar, Neyshabour, Mashhad,
-                    Kashan, Isfahan, Nain and Qom are characterized by their specific weaving techniques and use of
-                    high-quality materials, colours and patterns. Town manufactories like those of Tabriz have played an
-                    important historical role in reviving the tradition of carpet weaving after periods of decline. Rugs
-                    woven by the villagers and various tribes of Iran are distinguished by their fine wool, bright and
-                    elaborate colours, and specific, traditional patterns. Nomadic and small village weavers often
-                    produce rugs with bolder and sometimes more coarse designs, which are considered as the most
-                    authentic and traditional rugs of Persia, as opposed to the artistic, pre-planned designs of the
-                    larger workplaces. Gabbeh rugs are the best-known type of carpet from this line of tradition. As a
-                    result of political unrest or commercial pressure, carpet weaving has gone through periods of
-                    decline throughout the decades. It particularly suffered from the introduction of synthetic dyes
-                    during the second half of the nineteenth century. Carpet weaving still plays a critical role in the
-                    economy of modern Iran. Modern production is characterized by the revival of traditional dyeing with
-                    natural </p>
-                <label for="#about-persian-carpet">
+                    <p>tLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Felis eget velit aliquet sagittis id consectetur purus ut.
+                        Interdum velit euismod in pellentesque massa placerat. Vitae auctor eu augue ut lectus arcu
+                        bibendum at varius. Pharetra massa massa ultricies mi. Eleifend donec pretium vulputate sapien
+                        nec sagittis aliquam malesuada bibendum. Amet purus gravida quis blandit turpis cursus. Enim
+                        praesent elementum facilisis leo vel. Sed egestas egestas fringilla phasellus faucibus. Viverra
+                        adipiscing at in tellus integer feugiat scelerisque varius. Tristique risus nec feugiat in. Id
+                        aliquet lectus proin nibh nisl condimentum id venenatis. Ornare lectus sit amet est placerat in.
+                        Elementum curabitur vitae nunc sed velit dignissim sodales. Nunc consequat interdum varius sit
+                        amet. Porttitor rhoncus dolor purus non enim praesent elementum facilisis. Sed nisi lacus sed
+                        viverra tellus in. Sagittis id consectetur purus ut faucibus. Sagittis eu volutpat odio
+                        facilisis mauris sit. Massa enim nec dui nunc mattis enim.
+                        <br>
+                        Cras adipiscing enim eu turpis egestas pretium aenean. Integer feugiat scelerisque varius morbi
+                        enim nunc faucibus a pellentesque. Quisque sagittis purus sit amet volutpat consequat mauris
+                        nunc congue. Mattis aliquam faucibus purus in massa tempor nec feugiat. Commodo nulla facilisi
+                        nullam vehicula ipsum a arcu. Et pharetra pharetra massa massa. Condimentum mattis pellentesque
+                        id nibh tortor id aliquet. Nisl condimentum id venenatis a. Tristique sollicitudin nibh sit amet
+                        commodo nulla facilisi nullam vehicula. Cursus eget nunc scelerisque viverra mauris. Sagittis
+                        orci a scelerisque purus semper eget duis at. Sagittis purus sit amet volutpat consequat mauris
+                        nunc congue nisi. Risus viverra adipiscing at in tellus integer. Pharetra vel turpis nunc eget
+                        lorem. Dictum fusce ut placerat orci nulla pellentesque. Viverra suspendisse potenti nullam ac
+                        tortor. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Nam
+                        aliquam sem et tortor consequat id. Vestibulum rhoncus est pellentesque elit ullamcorper
+                        dignissim.
+                    </p>
+                </section>
+                <section id="about-persian-carpet">
                     <h3>About Persian Carpet</h3>
-                </label>
-                <p id="about-persian-carpet">A Persian carpet also known as Iranian carpet, is a heavy textile made for
-                    a wide variety of utilitarian and symbolic purposes and produced
-                    in Iran (historically known as Persia), for home use, local sale, and export. Carpet weaving is an
-                    essential part of Persian culture and Iranian art. Within the group of Oriental rugs produced by the
-                    countries of the "rug belt", the Persian carpet stands out by the variety and elaborateness of its
-                    manifold designs.
+                    <p>A Persian carpet also known as Iranian carpet, is a heavy textile made for
+                        a wide variety of utilitarian and symbolic purposes and produced in Iran (historically known as
+                        Persia), for home use, local sale, and export. Carpet weaving is
+                        an essential part of Persian culture and Iranian art. Within the group of Oriental rugs produced
+                        by the countries of the "rug belt", the Persian carpet stands out by the variety and
+                        elaborateness
+                        of its manifold designs.
+                        <br>
+                        Persian rugs and carpets of various types were woven in parallel by nomadic tribes in village
+                        and town workshops, and by royal court manufactories alike. As such, they represent
+                        miscellaneous,
+                        simultaneous lines of tradition, and reflect the history of Iran, Persian culture, and its
+                        various peoples. The carpets woven in the Safavid court manufactories of Isfahan during the
+                        sixteenth
+                        century are famous for their elaborate colors and artistical design, and are treasured in
+                        museums and private collections all over the world today. Their patterns and designs have set an
+                        artistic tradition for court manufactories which was kept alive during the entire duration of
+                        the Persian
+                        Empire up to the last royal dynasty of Iran.
+                        <br>
+                        Carpets woven in towns and regional centers like Tabriz, Kerman, Ravar, Neyshabour, Mashhad,
+                        Kashan, Isfahan, Nain and Qom are characterized by their specific weaving techniques and use of
+                        high-quality materials, colours and patterns. Town manufactories like those of Tabriz have
+                        played an
+                        important historical role in reviving the tradition of carpet weaving after periods of decline.
+                        Rugs woven
+                        by the villagers and various tribes of Iran are distinguished by their fine wool, bright and
+                        elaborate colours, and specific, traditional patterns. Nomadic and small village weavers often
+                        produce
+                        rugs with bolder and sometimes more coarse designs, which are considered as the most authentic
+                        and
+                        traditional rugs of Persia, as opposed to the artistic, pre-planned designs of the larger
+                        workplaces. Gabbeh rugs are the best-known type of carpet from this line of tradition.
+                        As a result of political unrest or commercial pressure, carpet weaving has gone through periods
+                        of decline throughout the decades. It particularly suffered from the introduction of synthetic
+                        dyes
+                        during the second half of the nineteenth century. Carpet weaving still plays a critical role in
+                        the economy of modern Iran. Modern production is characterized by the revival of traditional
+                        dyeing
+                        with natural dyes, the reintroduction of traditional tribal patterns, but also by the invention
+                        of
+                        modern and innovative designs, woven in the centuries-old technique. Hand-woven Persian rugs and
+                        carpets have been regarded as objects of high artistic and utilitarian value and prestige since
+                        the
+                        first time they were mentioned by ancient Greek writers.
+                        <br>
+                        Although the term "Persian carpet" most often refers to pile-woven textiles, flat-woven carpets
+                        and rugs like Kilim, Soumak, and embroidered tissues like Suzani are part of the rich and
+                        manifold
+                        tradition of Persian carpet weaving.
+                        <br>
+                        In 2010, the "traditional skills of carpet weaving" in Fars Province and Kashan were inscribed
+                        to the UNESCO Intangible Cultural Heritage Lists.
+                    </p>
+                </section>
+                <section id="qashqai">
+                    <h3>Qashqai Carpet</h3>
+                    <p>The Ghashghai nomads are found in the Fars province in the southwest of Iran and they live in the
+                        provinces of Fars, Khuzestan and Southern Isfahan but mostly in the surroundings of Shiraz. They
+                        move twice a year, between the winter pasture near the Persian Gulf and the summer pasture up in
+                        the Zagros mountains where it is much cooler. During the move it is possible to see the men with
+                        their typical round hats, running together with their dogs, large flock of sheep and herds of
+                        goats, along the roads swirling with clouds of dust. The women in their colourful clothes move
+                        along with the help of donkeys and horses towards new camp grounds. The tents that they live in
+                        are often made from goat hair.
+                        <br>
+                        The manufacturing of carpets as well as kelims, bags, ribbons and other decorations is an
+                        important contribution to the life of the nomads. The carpets have a typical red-brown ground
+                        colour. The pattern is tied from memory and often consists of a centrally placed medallion,
+                        repeated in all four corners. Humans, four legged animals, birds, trees and flowers are popular
+                        elements. Other patterns are collected from frescos and columns in Persepolis (Tacht-e-Jamshid
+                        in Persia ) the ceremonial capital during the Achmenids dynasty (550-330 B.C.). They are also
+                        wellknown for their beautiful sadle bags that are knotted for more practical reasons.
+                        <br>
+                        The carpets are woven on horizontal looms and the weaver sits during the weaving process on the
+                        half made part of the carpet. Semi nomads, who are resident during part of the year, weave
+                        carpets in the same way. A specially well-woven carpet is know as a Kashkooli. Gabbeh signifies
+                        a rough and primitive nomadic carpet from the area. During the last decades, the weaver had to
+                        oblige to the western desires and began to use large brighter fields with few patterns in the
+                        Gabbeh carpets. Well-made Ghashghai carpets are attractive and durable products that tells a lot
+                        about the conditions of the nomadic life. The carpet is made entirely of wool from sheep and
+                        goats with some horse hair. The carpets can also be known as Qashqai, Gashghai, Gaschgai or
+                        Kashgai carpets.
+                        <br>
+                        Most of the Ghasghai nomads have now settled in towns and villages. Their carpets are therefore
+                        more directly influenced by market demands. These carpets in comparison to other nomadic tribal
+                        carpets are more coarsely woven and have cotton warps. More simple carpets from the area are
+                        sold under the name Shiraz. It is also the name of the provincial capital and in these bazaars
+                        the Ghashghai carpets are sold. The bazaars are also a common place where the nomads purchase
+                        other products they may use in their everyday life.
+                        <br>
+                        Ghashghai carpets consist of a hexagon or diamond with four projecting hooks inside of a hooked
+                        diamond. Some Ghasghai pieces have the Hebatlu design (Hebatlu is the name of one of the one of
+                        the smaller Ghasghai tribes) and it consists of circular central medallion, and smaller designs
+                        similar to the central medallion repeated on each of the four corners of the carpet. The
+                        Ghasghai kelims tend to be woven in one piece with cotton sometimes used as highlights. The have
+                        simple designs and the warp is normally finished in long braids. The tribe that are well known
+                        for making the Kelims are the Amaleh and Darashuri.
+                    </p>
+                </section>
+                <section id="gabbeh">
+                    <h3>Gabbeh</h3>
+                    <p>Gabbeh (from the Persian language farsi; raw, natural, uncut) represents a rough and primitive
+                        carpet with patterns mostly made by Ghashghai nomads from the Farsi province in the southwest of
+                        Iran. These carpets are probably the most well-known handmade carpets from Iran. They are
+                        manufactured by handspun wool, both in the pile and warp, and the yarns are dyed using plant
+                        dyes. The carpets are much thicker than other Persian carpets, sometimes up to 2.5 cm thick.
+                        <br>
+                        The patterns of the carpet are of a simple type with only a few elements of decorative, mostly
+                        rectangular objects containing animals. During the last decades, the weavers have had to meet
+                        the demands of the west and have therefore, resorted to using large light fields with chary
+                        pattering in the Gabbeh carpets.
+                        <br>
+                        Weavers from India have acted quickly to copy these carpets, but one must pay attention to this
+                        as there is a major difference between a Persian and a Indo Gabbeh carpet. Mostly this can be
+                        determined by the quality of the wool that is noticable, the Persian variant is much softer. The
+                        Persian variant is also much more durable and the quality is definitely better.
+                        <br>
+                        At present, there are different names given to Gabbeh carpets such as Basic, Amalehbaft,
+                        Kashkooli, Luribaft, Sumak and Baluch Gabbeh. A Gabbeh Kashkooli is a carpet with a higher knot
+                        density and a shorter pile than the usual Gabbeh carpets.
+                    </p>
+                </section>
+                <section id="kerman">
+                    <h3>Kerman Carpet</h3>
+                    <p>Down in the southeast of Iran, close to an oasis in the desert Dasht-e-Lut lies the city of
+                        Kerman with a population of approximately 350 000 inhabitants. The distance to Teheran is more
+                        than 1 000 kilometres and the city was founded in the 4th century and had great importance for
+                        the people who were travelling far along the trading routes between Iran and India. During the
+                        centuries different masters have ruled the city, for example Arabs, Seljuks and Mongolians.
+                        <br>
+                        Until a few years ago Kerman was a good starting-point for the people wanting to visit the old
+                        fortress city of Bam, about 200 kilometres south. Bam was on of the most greatest tourist
+                        attractions in Iran, but was destroyed by an earthquake around Christmas 2003, killing 10 000
+                        peoples.
+                        <br>
+                        The city of Kerman today has a pleasant atmosphere with mosques, blocks with bazaars and tea
+                        houses. The carpet manufacturing has long been an important industry and carpets from Kerman are
+                        easily recognized. The ground colour is often red, and the pattern is dominated by a centrally
+                        placed medallion together with a wide border filled with flowers. The carpets that were
+                        manufactured before World War I usually have different motifs, such as trees, animals and
+                        figural motifs. The material as well as the design is usually of good quality.
+                        <br>
+                        The carpets were considered to be the best among the Iranian carpets, but the newer productions
+                        are unfortunately of low quality sometimes. Modern carpets with the name Kerman-Lavar often come
+                        with all-over floral motifs in clear colours. The carpets are also sold under the name Kirman.
+                    </p>
+                </section>
 
-                    Persian rugs and carpets of various types were woven in parallel by nomadic tribes in village and
-                    town workshops, and by royal court manufactories alike. As such, they represent miscellaneous,
-                    simultaneous lines of tradition, and reflect the history of Iran, Persian culture, and its various
-                    peoples. The carpets woven in the Safavid court manufactories of Isfahan during the sixteenth
-                    century are famous for their elaborate colors and artistical design, and are treasured in museums
-                    and private collections all over the world today. Their patterns and designs have set an artistic
-                    tradition for court manufactories which was kept alive during the entire duration of the Persian
-                    Empire up to the last royal dynasty of Iran.
+                <section id="moud">
+                    <h3>Moud Carpet</h3>
+                    <p>The city of Moud is situated south of Mashad and south of Birdjan. The carpets from Moud often
+                        have a Herati pattern , with or without a centrally placed medallion. They are sometimes divided
+                        into Moud Mahi and Moud Garden . The first one mentioned, Mahi, often has a beige colour with a
+                        light red or blue nuance and a star shaped medallion. The other, Garden, reminds one about
+                        Bakhtiar carpets, illustrated with a curvilinear garden motif.
+                        <br>
+                        The weavers uses double wefts and the workmanship is often of good quality. In both types silk
+                        is used to bring out the lustre in the pile. Other carpets from this area are Birjand and
+                        Kashmar.
+                    </p>
+                </section>
+                <section id="tabriz">
+                    <h3>Tabriz Carpet</h3>
+                    <p>The city of Tabriz is situated 600 km west of Teheran and one of the largest cities in Iran and
+                        also the captial in the province of Azerbajdzjan. The population comprising of the Azaris, who
+                        are the largest ethnic minority in Iran and speak the Turkish dialect. The city is old and has
+                        for centuries been a very important trading place and border station. Known attractions are the
+                        Blue Mosque and the giant bazaar.
+                        <br>
+                        The manufacturing of carpets today is extensive and the quality varies from excellent
+                        handicrafts to simple and cheap bazaar qualities. A good Tabriz has a short and rough pile. The
+                        patterns can consist of a centrally placed medallion surrounded by arabesques, weeping willows
+                        and cypresses. Another popular motif is the four seasons which describes the life of the Persian
+                        farmer during spring, summer, autumn and winter.
+                        <br>
+                        Ancient palaces and ruins are often seen on the carpets. On the corners it is sometimes possible
+                        to see the four great Persian poets: Sadi, Hafez, Ferdowsi and Omar Khayam.
+                        <br>
+                        The term Raj in connection with the name of Tabriz carpets refers to the number of knots in a 70
+                        mm span range. The denomination 40 Raj refers to carpets with 400-500.000 knots/m2, 50 Raj to
+                        carpets with approximately 500-600.000 knots/m2, 60 Raj to carpets with 600-800.000 knots/m2 and
+                        70 Raj to carpets with approximately 800-1.000.000 knots/m2. The last mentioned being extremely
+                        rare on today's market.
+                    </p>
+                </section>
+                <section id="sarouk">
+                    <h3>Sarouk Carpet</h3>
+                    <p>Sarouk does not have very long experience in carpet weaving, but it rescued the carpet industry
+                        during the world wars in the 20th century. Before American companies were established in this
+                        small city, Tabriz merchants managed the carpet industry in Sarouk. Still, after a downturn,
+                        along with the First World War and the stagnation of Sultanabad rugs, Sarouk rugs attracted
+                        American merchants. Still, they wanted some special orders, like rugs with low height piles,
+                        allover designs, and a central field of red.
+                        Thus the particular style of Sarouk rug was created with high densities and well handspun wool,
+                        professional weaving techniques, and regulated designs. Foreign consumers' desires and the
+                        unique taste of rustic Sarouk weavers make the extraordinary style of the Sarouk rug.</p>
+                </section>
+                <section id="nahavand">
+                    <h3>Nahavand Carpet</h3>
+                    <p>The ancient city of Nahavand in western Iran is one of Iran's leading rug-proveniences. It
+                        produces high quality Persian rugs, which have a very good reputation.
 
-                    Carpets woven in towns and regional centers like Tabriz, Kerman, Ravar, Neyshabour, Mashhad, Kashan,
-                    Isfahan, Nain and Qom are characterized by their specific weaving techniques and use of high-quality
-                    materials, colours and patterns. Town manufactories like those of Tabriz have played an important
-                    historical role in reviving the tradition of carpet weaving after periods of decline. Rugs woven by
-                    the villagers and various tribes of Iran are distinguished by their fine wool, bright and elaborate
-                    colours, and specific, traditional patterns. Nomadic and small village weavers often produce rugs
-                    with bolder and sometimes more coarse designs, which are considered as the most authentic and
-                    traditional rugs of Persia, as opposed to the artistic, pre-planned designs of the larger
-                    workplaces. Gabbeh rugs are the best-known type of carpet from this line of tradition.
+                        Usually a very shiny wool is used, which gives the patterns and design of the carpet a strong
+                        personality. The robust carpets have a retilinear design, partly inspired by nomadic rugs. A
+                        central centre medallion sets the tone in many cases. It is decorated with leaf, flower and
+                        branch motifs. It is framed by floral patterns that are stylized. Vases, for example, are a
+                        popular motif. The beautifully combined colours mostly consist of red and beige tones, which
+                        unfold on a blue background.</p>
+                </section>
 
-                    As a result of political unrest or commercial pressure, carpet weaving has gone through periods of
-                    decline throughout the decades. It particularly suffered from the introduction of synthetic dyes
-                    during the second half of the nineteenth century. Carpet weaving still plays a critical role in the
-                    economy of modern Iran. Modern production is characterized by the revival of traditional dyeing with
-                    natural dyes, the reintroduction of traditional tribal patterns, but also by the invention of modern
-                    and innovative designs, woven in the centuries-old technique. Hand-woven Persian rugs and carpets
-                    have been regarded as objects of high artistic and utilitarian value and prestige since the first
-                    time they were mentioned by ancient Greek writers.
-
-                    Although the term "Persian carpet" most often refers to pile-woven textiles, flat-woven carpets and
-                    rugs like Kilim, Soumak, and embroidered tissues like Suzani are part of the rich and manifold
-                    tradition of Persian carpet weaving.
-
-                    In 2010, the "traditional skills of carpet weaving" in Fars Province and Kashan were inscribed to
-                    the UNESCO Intangible Cultural Heritage Lists.</p>
 
             </div>
         </div>

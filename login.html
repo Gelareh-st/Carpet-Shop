@@ -15,12 +15,12 @@
     <div class="container-fluid"></div>
     <header>
         <nav class="d-flex">
-            <div class="col-6 col-lg-4">
+            <div class="col-6 col-lg-3">
                 <h1 class="main-label">Persian carpet</h1>
             </div>
-            <ul class="col-6 d-none d-lg-flex justify-content-evenly nav-bar">
+            <ul class="col-7 d-none d-lg-flex justify-content-evenly nav-bar">
                 <li><a href="index.html">home</a></li>
-                <li class="nav-item"><a href="index.html #collection">Collections</a>
+                <li class="nav-item"><a href="#collection">Collections</a>
                     <ul class="nav-menu">
                         <li><a href="#">Qashqai</a></>
                         <li><a href="#">Kerman</a></li>
@@ -39,18 +39,23 @@
                     <ul class="nav-menu">
                         <li><a href="login.html">Sign in</a></li>
                         <li><a href="sign_up.html">Sign up</a></li>
-                        <li><a href="#">Support</a></li>
+                        <li><a href="comments.html">Comments</a></li>
                     </ul>
                 </li>
                 <li><a href="Encyclopedia.html">Encyclopedia</a></li>
             </ul>
             <div
                 class="nav-icons col-6 col-lg-2 d-flex align-items-center justify-content-evenly justify-content-lg-end">
-                <div class="d-flex">
-                    <p id="products-num"> 0 </p>
-                    <img src="./assets/images/icons8-shopping-cart-90.png" alt="" class=" m-lg-3 m-1 " id="buy-icon">
-                </div>
-                <img src="./assets/images/icons8-person-90.png" alt="" class=" m-lg-3 ">
+
+                <a href="cart.html">
+                    <div class="d-flex">
+                        <p id="products-num"> 0 </p>
+                        <img src="./assets/images/icons8-shopping-cart-90.png" alt="" class=" m-lg-3 m-1 "
+                            id="buy-icon">
+                    </div>
+                </a>
+                <a href="login.html"><img src="./assets/images/icons8-person-90.png" alt="" class=" m-lg-3 "
+                        id="login-icon"></a>
                 <img src="./assets/images/icons8-menu-rounded-90.png" alt="" class="d-block d-lg-none" id="menu-icon">
             </div>
         </nav>
@@ -78,7 +83,7 @@
                     <ul class="mobile-nav-menu">
                         <li><a href="login.html">Sign in</a></li>
                         <li><a href="sign_up.html">Sign up</a></li>
-                        <li><a href="#">Support</a></li>
+                        <li><a href="comments.html">Comments</a></li>
                     </ul>
                 </li>
                 <li><a href="Encyclopedia.html">Encyclopedia</a></li>
@@ -92,7 +97,10 @@
                 <input type="text" placeholder="Username">
                 <input type="password" placeholder="Password">
                 <input id="submit-btn" type="submit" value="Login">
-                <a href="#">forgot password ?</a>
+                <div class="d-flex justify-content-between">
+                    <a href="forgot-password.html">forgot password ?</a>
+                    <a href="sign_up.html">Dont have an account ?</a>
+                </div>
             </form>
 
         </div>

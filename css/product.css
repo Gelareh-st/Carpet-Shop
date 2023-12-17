@@ -1,0 +1,24 @@
+main{
+    padding: 8rem 4rem;
+}
+.product img , .info{
+    /* margin: 1rem; */
+    border: solid 2px rgb(238, 221, 204) ;
+    border-radius: 3rem;
+}
+.info{
+    padding: 2rem;
+}
+
+
+
+@media screen and (max-width: 990px) {
+    main{
+        padding: 7rem 1rem;
+    }
+    .product img {
+        width: 90%;
+        height: auto;
+    }
+  
+  }

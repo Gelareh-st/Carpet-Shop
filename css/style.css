@@ -20,13 +20,13 @@ a:hover{
 }
 
 .main-label {
-  margin: 0.5rem 1rem;
+  margin: 0.5rem 0 0.5rem 1rem;
   color: #cc3333;
 }
 nav {
   height:4rem;
   width: 90%;
-  background-color: rgba(238, 221, 204, 0.8);
+  background-color: rgb(238, 221, 204);
   position: fixed;
   margin: 2rem 5% 0 5%;
   border-radius: 4rem;
@@ -56,17 +56,19 @@ nav {
   padding: 0.5rem 1rem;
   border-top: #cc3333 groove 0.5px;
 }
-.nav-icons>img , #buy-icon{
+#login-icon , #menu-icon , #buy-icon{
   height: 2rem;
 }
 #products-num{
-  margin-right: -2.7rem;
+  margin-right: -2.85rem;
+  margin-top: 0.5rem;
   background-color: #cc3333;
   border-radius: 2rem 2rem 0 0;
   text-align: center;
-  width: 1.2rem;
-  height: 1.6rem;
+  width: 1.3rem;
+  height: 1.5rem;
   color: white;
+  font-size:14px;
 }
 #mobile-nav{
   background-color: rgba(238, 221, 204, 1);
@@ -101,12 +103,34 @@ nav {
 footer{
     height: 5rem;
     margin: 1rem 5%;
-    background-color: rgba(238, 221, 204, 0.8) ;
+    background-color: rgb(238, 221, 204) ;
     border-radius: 10rem;
 }
 .sos-media>a>img{
   height: 2rem;
 }
+
+
+        
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e7e7e7;
+  border: 1px solid #cacaca;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+  background-color: #cc3333;
+}
+
+
+
+
 @media screen and (max-width: 500px) {
   header {
     background-image: url("../assets/images/121664.jpg");
