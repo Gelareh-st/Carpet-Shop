@@ -1,0 +1,29 @@
+main{
+    padding: 8rem 5rem;
+    color: white;
+}
+th , td{
+    border: solid 1px blanchedalmond;
+    width:10rem;
+    min-height:3rem;
+    max-height: fit-content;
+    padding: 1rem;
+    font-size: larger;
+}
+td img{
+    width: 10rem;
+    height: auto;
+}
+td input{
+    width: 2rem;
+}
+
+@media screen and (max-width: 990px) {
+    main{
+        padding: 7rem 1rem;
+    }
+    th , td{
+        width:7rem;
+    }
+  
+  }
