@@ -1,0 +1,50 @@
+main{
+    padding: 8rem 10rem;
+}
+.inf{
+padding: 0.5rem;
+}
+.inf textarea{
+    width: 100%;
+    min-height: 4rem;
+    border-radius: 0.5rem;
+}
+.inf input{
+    width: 100%;
+    min-height: 4rem;
+    border-radius: 0.5rem;
+    background-color: rgba(238, 221, 204, 1);
+    border: none;
+}
+.comment-text{
+    background-color: rgba(238, 221, 204, 1);
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+.prof-image{
+    border-radius: 0.5rem;
+    border: 0.1px solid black;
+    height: 5rem;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+h4, h2{
+    color: white;
+    margin: 0 1rem;
+}
+
+@media screen and (max-width: 990px) {
+    main{
+        padding: 7rem 1rem;
+    }
+    .new-comment div{
+        padding: 0.2rem;
+    }
+    .new-comment div input{
+    font-size:xx-small;
+    }
+  
+  }

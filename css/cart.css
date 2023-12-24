@@ -2,6 +2,9 @@ main{
     padding: 8rem 5rem;
     color: white;
 }
+table{
+    margin: auto;
+}
 th , td{
     border: solid 1px blanchedalmond;
     width:10rem;
@@ -15,15 +18,34 @@ td img{
     height: auto;
 }
 td input{
-    width: 2rem;
+    width: 2.7rem;
 }
-
+.final{
+    padding: 3rem 5rem;
+    border-radius: 1.5rem;
+    width: fit-content;
+    background-color: rgb(238, 221, 204) ;
+    color: black;
+    height: fit-content;
+    font-size: large;
+    margin: 3rem auto;
+}
+.final input {
+    padding: 0.5rem 3rem;
+    border-radius: 1rem;
+    margin: 0.5rem 0;
+    background-color: rgb(156, 255, 156);
+}
 @media screen and (max-width: 990px) {
     main{
         padding: 7rem 1rem;
     }
     th , td{
         width:7rem;
+    }
+    td img{
+        width: 5rem;
+        height: auto;
     }
   
   }

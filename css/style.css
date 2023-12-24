@@ -51,6 +51,7 @@ nav {
   list-style: none;
   border-radius: 0 0 7rem 7rem;
   margin: auto;
+  transition: all 2s ;
 }
 .nav-menu>li{
   padding: 0.5rem 1rem;
